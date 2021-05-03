@@ -5,7 +5,7 @@ import com.lambda.client.module.Category
 import com.lambda.client.module.Module
 import com.lambda.client.util.text.MessageSendHelper
 
-internal object FormatChat : Module(
+object FormatChat : Module(
     name = "FormatChat",
     description = "Add color and linebreak support to upstream chat packets",
     category = Category.CHAT,

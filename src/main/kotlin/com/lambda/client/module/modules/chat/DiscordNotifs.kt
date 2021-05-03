@@ -22,7 +22,7 @@ import net.minecraft.network.play.server.SPacketChat
 import net.minecraftforge.fml.common.gameevent.TickEvent
 import org.apache.commons.io.IOUtils
 
-internal object DiscordNotifs : Module(
+object DiscordNotifs : Module(
     name = "DiscordNotifs",
     category = Category.CHAT,
     description = "Sends your chat to a set Discord channel"

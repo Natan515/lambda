@@ -21,7 +21,7 @@ import net.minecraft.client.settings.KeyBinding
 import kotlin.math.cos
 import kotlin.math.sin
 
-internal object Strafe : Module(
+object Strafe : Module(
     name = "Strafe",
     category = Category.MOVEMENT,
     description = "Improves control in air",

@@ -10,7 +10,7 @@ import kotlinx.coroutines.runBlocking
 import java.awt.GraphicsEnvironment
 import java.util.*
 
-internal object CustomFont : Module(
+object CustomFont : Module(
     name = "CustomFont",
     description = "Use the better font instead of the stupid Minecraft font",
     showOnArray = false,

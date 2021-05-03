@@ -13,7 +13,7 @@ import com.lambda.event.listener.listener
 import net.minecraft.network.play.server.SPacketChat
 import net.minecraftforge.fml.common.gameevent.TickEvent
 
-internal object AutoReply : Module(
+object AutoReply : Module(
     name = "AutoReply",
     description = "Automatically reply to direct messages",
     category = Category.CHAT

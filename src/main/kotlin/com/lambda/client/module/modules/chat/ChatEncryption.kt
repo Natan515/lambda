@@ -19,7 +19,7 @@ import net.minecraft.network.play.server.SPacketChat
 import net.minecraft.util.text.TextFormatting
 
 // TODO: Add proper RSA encryption
-internal object ChatEncryption : Module(
+object ChatEncryption : Module(
     name = "ChatEncryption",
     description = "Encrypts and decrypts chat messages",
     category = Category.CHAT,

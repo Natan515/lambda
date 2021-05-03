@@ -29,7 +29,7 @@ import java.io.File
 import java.io.IOException
 import java.nio.file.Paths
 
-internal object Configurations : AbstractModule(
+object Configurations : AbstractModule(
     name = "Configurations",
     description = "Setting up configurations of the client",
     category = Category.CLIENT,

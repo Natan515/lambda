@@ -20,7 +20,7 @@ import net.minecraft.util.NonNullList
 /**
  * @see MixinGuiScreen.renderToolTip
  */
-internal object ShulkerPreview : Module(
+object ShulkerPreview : Module(
     name = "ShulkerPreview",
     category = Category.RENDER,
     description = "Previews shulkers in the game GUI"
